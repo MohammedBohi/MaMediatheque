@@ -1,6 +1,4 @@
-
 package mediatheque;
-
 
 public class Book extends Item {
 	private String author;
@@ -24,8 +22,7 @@ public class Book extends Item {
 
 	@Override
 	public String toString() {
-		return "Book{" + super.toString() + ", author=" + author + '}';
+		return "Livre : " + super.toString() + " de " + author;
 	}
-	
 	
 }

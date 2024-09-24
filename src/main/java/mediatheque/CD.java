@@ -22,7 +22,7 @@ public class CD extends Item {
 
 	@Override
 	public String toString() {
-		return "CD{" + super.toString() + ",numberOfTracks=" + numberOfTracks + '}';
+		return "CD : " + super.toString() + " (" + numberOfTracks + " titres)";
 	}
 	
 }
