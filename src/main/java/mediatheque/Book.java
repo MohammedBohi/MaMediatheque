@@ -7,7 +7,8 @@ public class Book extends Item {
 		super(title);
 		this.author = author;
 	}
-
+	@Override
+	public void accept(ItemVisitor visitor) { visitor.visit(this); }
 	public String getAuthor() {
 		return author;
 	}

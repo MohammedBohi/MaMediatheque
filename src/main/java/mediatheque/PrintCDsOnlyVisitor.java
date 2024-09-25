@@ -4,7 +4,7 @@ public class PrintCDsOnlyVisitor implements ItemVisitor{
 
     @Override
     public void visit(CD cd) {
-
+             cd.print();
     }
 
     @Override

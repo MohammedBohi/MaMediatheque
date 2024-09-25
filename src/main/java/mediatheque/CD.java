@@ -7,7 +7,9 @@ public class CD extends Item {
 		super(title);
 		this.numberOfTracks = numberOfTracks;
 	}
-
+public void accept(ItemVisitor visitor) {
+		visitor.visit(this);
+}
 	public int getNumberOfTracks() {
 		return numberOfTracks;
 	}
